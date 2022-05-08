@@ -244,7 +244,7 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 | 版本 | FREE | PRO | PRO+ | PREM |
 | --- | --- | --- | --- | --- |
 |交易保证金限额  | 100 USDT | 100000 USDT | 100000 USDT | 无限制 |
-| 允许账户登录数 | 1个 |5个  |5个  |5个  |
+| 允许账户登录数 | 1个 |1个  |5个  |5个  |
 | 每月 | 免费 |25 USDT  | 50 USDT | 免费 |
 | 每年 | 免费 |278 USDT  | 498 USDT | 免费 |
 
