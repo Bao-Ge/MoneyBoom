@@ -1,4 +1,4 @@
-# 目录
+# 功能目录
 [1、简介](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#1%E7%AE%80%E4%BB%8B)
 
 [2、功能介绍](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#2%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)
@@ -9,7 +9,7 @@
 
 [5、费用说明](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
 
-# 1、简介
+# 1、功能简介
 MoneyBoom又名金钱豹，是一款能对接TradingView的警报信号，然后在指定交易所进行交易的工具；已支持TradingView的Webhook,Email两种警报，支持的交易所有币安U本位合约和欧易的U本位合约。
 
 ![MoneyBoom-4](https://user-images.githubusercontent.com/6885956/166481744-e0ffedc0-b245-44d2-bf2e-ac561bc18cb2.png)
