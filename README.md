@@ -216,7 +216,7 @@ MoneyBoom里面有2个仓位百分比，一个是交易对的仓位占比，一�
 
 ![交易对](https://user-images.githubusercontent.com/6885956/167293908-b3642589-d462-4489-862b-e172d2d087e4.png)
 策略的仓位占比见高亮的100；
-M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},==100==,{{strategy.order.id}}
+M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},100,{{strategy.order.id}}
 见信号记录的仓位；
 
 ![信号记录](https://user-images.githubusercontent.com/6885956/167294525-33b7d1ff-0c9d-4426-9d37-4149096720c2.png)
@@ -244,12 +244,15 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 | 每月 | 免费 |25 USDT  | 50 USDT | 免费 |
 | 每年 | 免费 |278 USDT  | 498 USDT | 免费 |
 
-==PREM版本使用条件，使用我的邀请码注册新用户，即可免费使用MoneyBoom金钱豹；
-使用邀请码注册还有一个好处就是：交易所会返回20%的交易手续费，咱俩各分10%；==
+PREM版本使用条件，使用我的邀请码注册新用户，即可免费使用MoneyBoom金钱豹；
+使用邀请码注册还有一个好处就是：交易所会返回20%的交易手续费，咱俩各分10%；
 
 币安邀请链接：[https://accounts.binance.com/zh-CN/register?ref=156555824](https://note.youdao.com/)
+
 币安邀请码：156555824
+
 欧易邀请链接：[https://www.ouyicn.men/join/9464743](https://note.youdao.com/)
+
 欧易邀请码：9464743
 
 ## 5.2、收款地址
