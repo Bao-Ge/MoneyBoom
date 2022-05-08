@@ -27,6 +27,7 @@ MoneyBoom又名金钱豹，是一款能对接TradingView的警报信号，然后
 选择指定交易对，可进行杠杆、仓位、仓位类型和止损配置；
 
 ![交易对](https://user-images.githubusercontent.com/6885956/167293908-b3642589-d462-4489-862b-e172d2d087e4.png)
+
 1. 目前最大支持10x，咱们还是得注意风险，别玩儿太大；
 2. 仓位为各个交易对占保证金的百分比，如果同时跑BTCUSDT和ETHUSDT，可各设置50%，仓位占比之和为100%；
 3. 类型：全仓杠杆和逐仓杠杆；
@@ -94,13 +95,16 @@ MoneyBoom又名金钱豹，是一款能对接TradingView的警报信号，然后
 ## 3.1、下载、安装
 
 [安装包下载地址](https://github.com/Bao-Ge/MoneyBoom/releases/tag/MoneyBoom)
+
 下载之后，双击“MoneyBoom Setup V2.msi”，默认安装，安装完成后，会生成桌面快捷方式；
 如下如所示：
 
 ![图标](https://user-images.githubusercontent.com/6885956/167296693-3b38a0f3-cad8-498f-81b1-7ac80c6c2182.png)
+
 双击图标，显示如下：
 
 ![首次登录](https://user-images.githubusercontent.com/6885956/167296873-e7942a9d-67da-433c-a397-74db55b83ff9.png)
+
 ## 3.2、配置流程
 点击上图中左上角的金钱豹图标，进行相关配置；
 配置流程如下：
