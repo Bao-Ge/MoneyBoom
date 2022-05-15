@@ -258,7 +258,7 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 ## 4.5、什么是2TP交易
 策略介绍如下
 
-[https://cn.tradingview.com/script/VCBUQqGh-JaZYoN-bot-4X-Strategy/](https://note.youdao.com/)
+[https://cn.tradingview.com/script/VCBUQqGh-JaZYoN-bot-4X-Strategy/](https://cn.tradingview.com/script/VCBUQqGh-JaZYoN-bot-4X-Strategy/)
 
 JaZYoN_bot_4X - Strategy是一个非常优秀的策略，该策略能根据相关指标自动调整杠杆，并且有2个止盈点；如下图所示，信号有2个，合约数为杠杆；
 
@@ -305,10 +305,7 @@ USDT 收款地址：  0x838944716b526f2c573207def45cb73e1cc80e38
 
 ![USDT](https://user-images.githubusercontent.com/6885956/167302999-70256a6c-68b8-472c-8c0b-8ea67c2183bb.png)
 
-## 5.2、合作模式
-如果你觉得金钱豹还不错，可以给推广一下，推广会得到30%的返佣；如果你想金钱豹用你的邀请链接，也可以联系我；
-
-## 5.3、交流群
+## 5.2、交流群
 金钱豹电报交流群，大家如果有问题可以随时反馈！
 
 ![Telegram](https://user-images.githubusercontent.com/6885956/167303682-47d5c7f5-83c5-4338-9cff-803404efb1a3.png)
