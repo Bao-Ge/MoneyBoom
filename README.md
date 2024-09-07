@@ -210,57 +210,26 @@ M1:TEST,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_positi
 
 ![交易对](https://user-images.githubusercontent.com/6885956/167293908-b3642589-d462-4489-862b-e172d2d087e4.png)
 
-策略的仓位占比见高亮的100；
+策略的仓位占比见高亮的50；
 
-M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},50,{{strategy.order.id}}
+M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}}, **50** ,{{strategy.order.id}}
 
 举例说明：
 
 若仓位百分比设置为70%，策略仓位百分比为50%，则实际执行交易的时候，则占用保证金为70%*50%=35%；
 
-需要注意的是在执行交易时，会留些余量，即实际执行的保证金占比为35%*98%=34.3%；
 
 ## 4.5、什么是2TP交易
-策略介绍如下
-且有2个止盈点；如下图所示，信号有2个，合约数为为仓位百分数；
-
+且有2个止盈点，一个止损点，合约数为为仓位百分数，即根据成交量也会调整仓位；
 
 ## 4.6、清空记录
 首次使用时，若有开仓，请先平仓，然后点击按键“清空记录”；
 
 ## 4.7、使用到期问题
-当PRO、PRO+、PREM使用过期后，将会变为FREE版，此时会限制保证金；
+当PRO版本使用过期后，将会变为FREE版，此时会限制保证金；
 
 # 5、费用说明
-| 版本 | FREE | PRO | PRO+ | PREM |
-| --- | --- | --- | --- | --- |
-|交易保证金限额  | 100 USDT | 100000 USDT | 100000 USDT | 无限制 |
-| 允许账户登录数 | 1个 |1个  |5个  |5个  |
-| 每月 | 免费 |25 USDT  | 50 USDT | 免费 |
-| 每年 | 免费 |278 USDT  | 498 USDT | 免费 |
-
-PREM版本使用条件，使用我的邀请码注册新用户，即可免费使用MoneyBoom金钱豹；
-
-使用邀请码注册还有一个好处就是：交易所会返回20%的交易手续费，咱俩各返10%；
-
-币安邀请链接：[https://accounts.binance.com/zh-CN/register?ref=156555824](https://note.youdao.com/)
-
-币安邀请码：156555824
-
-欧易邀请链接：[https://www.ouyicn.men/join/9464743](https://note.youdao.com/)
-
-欧易邀请码：9464743
-
-## 5.1、收款地址
-USDT 收款地址：  0x838944716b526f2c573207def45cb73e1cc80e38
-
-主网：BNB Smart Chain(BEP20)或Ethereum(ERC20)
-
-二维码收款地址
-
-![USDT](https://user-images.githubusercontent.com/6885956/167302999-70256a6c-68b8-472c-8c0b-8ea67c2183bb.png)
-
-## 5.2、交流群
-金钱豹电报交流群，大家如果有问题可以随时反馈！
-
-![Telegram](https://user-images.githubusercontent.com/6885956/167303682-47d5c7f5-83c5-4338-9cff-803404efb1a3.png)
+| 版本 | FREE | PRO |
+| --- | --- | --- |
+|交易保证金限额  | 100 USDT |
+| 每月 | 免费 |25 USDT  |
