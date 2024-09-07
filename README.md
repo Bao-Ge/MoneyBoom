@@ -39,7 +39,7 @@
 
 ## 2.1、交易对
 选择指定交易对，可进行杠杆、仓位、仓位类型和止损配置；
-![6](https://github.com/user-attachments/assets/3f086700-5667-4865-90e9-55e2a9c09cb3)
+![交易对](https://github.com/user-attachments/assets/6430d672-3d56-47ed-8c33-c38ca488d256)
 
 1. 目前最大支持50x；
 2. 仓位为各个交易对占保证金的百分比，如果同时跑BTCUSDT和ETHUSDT，可各设置50%，仓位占比之和为100%；
@@ -58,13 +58,12 @@
 盈利 = 余额 - 本金
 
 收益 = 盈利 / 本金
-
-![本金与收益](https://user-images.githubusercontent.com/6885956/167294510-23312bc6-a441-4da4-88bd-a3f4b8a52705.png)
+![本金与收益](https://github.com/user-attachments/assets/7b47b912-e42a-46c2-bb21-316e9c9c9eb7)
 
 ## 2.4、持仓
 显示当前持仓信息；
 
-![持仓](https://user-images.githubusercontent.com/6885956/167294511-ec178fa1-0663-4c69-89c8-058bc8d7d066.png)
+![持仓](https://github.com/user-attachments/assets/2cb6bd95-2cc3-4bfc-89ab-6827cc824336)
 
 ## 2.5、交易清单
 显示当前交易的历史记录，与TradingView完美匹配；
