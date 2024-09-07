@@ -15,7 +15,7 @@
 金钱豹工作方式如下图所示。
 
 ![0](https://github.com/user-attachments/assets/7780c3fc-04b0-4d60-a22f-bd7da4fab76b)
-
+![0](user-attachments/assets/7780c3fc-04b0-4d60-a22f-bd7da4fab76b)
 ## 1.1、核心功能
 - 对接Tradingview发出的email警报
 - 对接币安合约或欧易合约
