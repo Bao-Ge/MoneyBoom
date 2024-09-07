@@ -129,49 +129,39 @@
 
 ## 3.4、TradingView警报配置
 - ==警报名称：请保持为空==
-- webhook URL：请点击参数配置界面中的"webhook地址"，则复制webhook URL；
-- 消息：常规警报请点击参数配置界面中的"常规警报指令"；2TP警报则点击“2TP警报指令”；
-- 常规警报和2TP警报的区别见4.5；
+- 消息：常规警报请点击参数配置界面中的"常规警报指令"或"常规警报指令+网格"；2TP警报则点击“2TP警报指令”或“2TP警报指令+网格”；
  
-![警报配置](https://user-images.githubusercontent.com/6885956/167297672-0642387a-b5a3-45b1-bccb-064aa7a1b492.png)
+![TV设置](https://github.com/user-attachments/assets/eb60ee27-05cb-42fe-b580-93eafe00e7c0)
+![TV通知](https://github.com/user-attachments/assets/fd96e6c1-8c00-4693-a1ec-802a127261c6)
 
 ## 3.5、激活注册
 点击如图所示的图标，进行注册；
 
-![激活](https://user-images.githubusercontent.com/6885956/167298187-205215ab-82b6-460c-b43b-ff7fd1527774.png)
+![激活](https://github.com/user-attachments/assets/c3e949e4-0fdb-4dee-9e6e-0903dc283d52)
 
-激活步骤如下：
-
-进行注册；
-
-![激活配置](https://user-images.githubusercontent.com/6885956/167298251-450823fe-bde0-45c3-b5a8-641bcd9ab20a.png)
-1. 复制机器码，然后再联系我；
-2. 复制激活码至红色方框中；
-3. 点击“激活”按键，完成激活，同时状态会更新；
-
-![状态更新](https://user-images.githubusercontent.com/6885956/167298600-af030179-7843-4a34-a6f7-9e3cf1d03cb0.png)
-license说明请见 “5、费用说明”
-
-## 3.6、添加新账号
-点击加号，则可新增账户；
-
-![状态更新](https://user-images.githubusercontent.com/6885956/167298712-d8ee9313-d693-40bf-8f42-c395aedca42a.png)
-
-## 3.7、语言切换
-如下图所示，切换图标；
-
-![语言切换](https://user-images.githubusercontent.com/6885956/167298824-b47060c1-27b3-48c8-b373-aa2c6efd804d.png)
 
 # 4、注意事项
 在使用MoneyBoom工具之前，请先了解一下相关注意事项；
 ## 4.1、参数配置说明
 ### 4.1.1、邮箱配置
-推荐使用QQ邮箱，QQ邮箱能够和微信绑定，能即使收到消息；
 
-登录QQ邮箱，点击设置，切换到账户；
+![邮箱密码](https://github.com/user-attachments/assets/c3d925ad-498a-4b68-ae4e-4330f4757f45)
+
+使用Gmail邮箱时，需要注意，不能使用邮箱密码，应使用应用专用密码，获取方法如下：
+- 点击邮箱所有设置
+  
+![邮箱所有设置](https://github.com/user-attachments/assets/2b9e3e28-0f4d-4306-bf24-415e124094e9)
+
+- 启动IMAP
+  
+![启用IMAP](https://github.com/user-attachments/assets/c01100f7-b4f9-4271-a295-8a6b08f0809c)
+
+- 获取应用专用密码
+  
+登录Gmail邮箱，点击设置，切换到账户；
 
 ![邮箱配置](https://user-images.githubusercontent.com/6885956/167299071-3a40b94e-d992-4600-8b8f-009c0ea94e30.png)
-开通IMAP/SMTP,生成授权码，授权码即为邮箱的登录密码；
+开启IMAP/SMTP,生成授权码，授权码即为邮箱的登录密码；
 
 ![授权码](https://user-images.githubusercontent.com/6885956/167299112-b47e5401-66f0-43e0-9268-4f8cc19f7691.png)
 
