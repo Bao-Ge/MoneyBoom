@@ -110,7 +110,7 @@
 用于指导下载、安装和相关配置；
 ## 3.1、下载、安装
 
-[安装包下载地址](https://github.com/Bao-Ge/MoneyBoom/releases/tag/MoneyBoom)
+[金钱豹下载](https://github.com/Bao-Ge/MoneyBoom/releases/download/MoneyBoom/MoneyBoom_Rlease.zip)
 
 
 ## 3.2、配置流程
