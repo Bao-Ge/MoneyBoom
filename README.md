@@ -10,8 +10,10 @@
 [5、费用说明](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 # 1、简介
-金钱豹MoneyBoom是一款能对接TradingView的警报信号，然后在指定交易所进行交易的工具；已支持TradingView的Email警报（免费版TradingView也能进行量化交易），支持币安U本位合约和欧易的U本位合约。
-
+金钱豹MoneyBoom是一款能对接TradingView的警报信号，然后在指定交易所进行下单的自动交易工具。
+支持TradingView的Email警报（免费版TradingView也能进行量化交易），支持币安U本位合约和欧易的U本位合约。
+金钱豹工作方式如下图所示。
+![0](https://github.com/user-attachments/assets/7780c3fc-04b0-4d60-a22f-bd7da4fab76b)
 
 ## 1.1、核心功能
 - 对接Tradingview发出的email警报
@@ -45,11 +47,10 @@
 4. 止损：当亏损达到该值后，将自动进行平仓止损；
 
 ## 2.2、账户
-对于币安账号只显示BNB、USDT和BUSD，对于欧易账号只显示USDT；
-
-对于需要BNB显示正确的换算U余额，请在交易对添加BNBUSDT；
-
-![账户](https://user-images.githubusercontent.com/6885956/167294507-38803436-3d6a-4933-855e-3f30894b15a0.png)
+币安账号只显示BNB、USDT和BUSD，对于欧易账号只显示USDT；
+对于需要BNB显示正确的换算U余额，请在交易对保留BNBUSDT；
+建议往币安合约账户里充值BNB，BNB做手续费有优惠；
+![13](https://github.com/user-attachments/assets/7edd8993-4868-4c76-b748-4e4b1402a656)
 
 ## 2.3、本金与收益
 显示当前本金、余额、盈利和收益，其中本金需要手动修改；
