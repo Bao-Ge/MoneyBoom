@@ -13,6 +13,7 @@
 金钱豹MoneyBoom是一款能对接TradingView的警报信号，然后在指定交易所进行下单的自动交易工具。
 支持TradingView的Email警报（免费版TradingView也能进行量化交易），支持币安U本位合约和欧易的U本位合约。
 金钱豹工作方式如下图所示。
+
 ![0](https://github.com/user-attachments/assets/7780c3fc-04b0-4d60-a22f-bd7da4fab76b)
 
 ## 1.1、核心功能
@@ -50,6 +51,7 @@
 币安账号只显示BNB、USDT和BUSD，对于欧易账号只显示USDT；
 对于需要BNB显示正确的换算U余额，请在交易对保留BNBUSDT；
 建议往币安合约账户里充值BNB，BNB做手续费有优惠；
+
 ![13](https://github.com/user-attachments/assets/7edd8993-4868-4c76-b748-4e4b1402a656)
 
 ## 2.3、本金与收益
@@ -58,6 +60,7 @@
 盈利 = 余额 - 本金
 
 收益 = 盈利 / 本金
+
 ![本金与收益](https://github.com/user-attachments/assets/7b47b912-e42a-46c2-bb21-316e9c9c9eb7)
 
 ## 2.4、持仓
@@ -67,41 +70,41 @@
 
 ## 2.5、交易清单
 显示当前交易的历史记录，与TradingView完美匹配；
-![交易清单](https://user-images.githubusercontent.com/6885956/167294513-8250d58f-b4af-48a1-91bc-22654cdc8411.png)
+
+![交易清单](https://github.com/user-attachments/assets/2236ebc0-b64f-4461-99cd-d9834dc72457)
 
 ## 2.6、手动交易
 - 选择左上角的交易对，可进行手动交易；
 - 在“单交易对多策略”的模式下，若要平掉交易清单的仓位，请修策略代号，与交易清单中的策略代号一致；
 - 在“单交易对单策略”的模式下，若要平掉交易清单的仓位，可直接点击“平多”或“平空”；
 
-![手动交易](https://user-images.githubusercontent.com/6885956/167294528-4d2495d3-9993-46de-82e9-3dce735eba94.png)
+![手动](https://github.com/user-attachments/assets/5f4997c8-805b-4223-a583-208d145400e9)
 
 ## 2.7、概览·统计
 显示“今日收益”、“累计胜率”和“盈利因子”等相关统计结果，以图表的方式显示每月收益数据；
 
-![概览·统计](https://user-images.githubusercontent.com/6885956/167294522-85957ed3-8bd1-41bf-9ae3-68d5941f0596.png)
+![统计](https://github.com/user-attachments/assets/561dad04-a9e6-4197-b139-de817fad61a2)
 
 ## 2.8、信号记录
 - 信号：与TradingView一致；
-- 源：有webhook、email和Button三种类型，记录当前警报的来源；
+- 源：Email、Grid-x和Button三种类型，记录当前警报的来源；
 
-![信号记录](https://user-images.githubusercontent.com/6885956/167294525-33b7d1ff-0c9d-4426-9d37-4149096720c2.png)
+![信号记录](https://github.com/user-attachments/assets/ad60aa42-dc59-45b0-9c23-d99d36bf6bb4)
 
 ## 2.9、余额曲线
 每次平仓后，会记录当前余额，并绘制曲线；
 
-![余额曲线](https://user-images.githubusercontent.com/6885956/167294526-ff49d6f8-c18b-4aa1-b0ae-4073bc380c0a.png)
+![余额](https://github.com/user-attachments/assets/2aa3b3f2-4a69-4cff-bf0b-5d28739e6b34)
 
 ## 2.10、状态栏
-- 显示当前交易所、Email和Webhook的连接状态；
-- 若中途断开连接，则会发送Email通知；
+- 显示当前交易所和Email的连接状态；
 
-![状态栏](https://user-images.githubusercontent.com/6885956/167293921-94b690b1-a690-4364-a636-a2e4d32fa598.png)
+![状态](https://github.com/user-attachments/assets/66bec7ae-5343-43f1-953e-8f069dbf398c)
 
 ## 2.11、版本信息
 当前当前工具版本和license版本；
 
-![版本信息](https://user-images.githubusercontent.com/6885956/167293922-3752dd89-75d0-4a2d-8bc9-61b2f6345c37.png)
+![版本](https://github.com/user-attachments/assets/bfb6b5b6-dc6c-4765-9423-f9a1c4e95a45)
 
 # 3、操作指南
 用于指导下载、安装和相关配置；
@@ -109,15 +112,6 @@
 
 [安装包下载地址](https://github.com/Bao-Ge/MoneyBoom/releases/tag/MoneyBoom)
 
-下载之后，双击“MoneyBoom Setup V2.msi”，默认安装，安装完成后，会生成桌面快捷方式；
-
-如下如所示：
-
-![图标](https://user-images.githubusercontent.com/6885956/167296693-3b38a0f3-cad8-498f-81b1-7ac80c6c2182.png)
-
-双击图标，显示如下：
-
-![首次登录](https://user-images.githubusercontent.com/6885956/167296873-e7942a9d-67da-433c-a397-74db55b83ff9.png)
 
 ## 3.2、配置流程
 点击上图中左上角的金钱豹图标，进行相关配置；
@@ -131,7 +125,7 @@
 ## 3.3、参数配置
 详细配置说明见4.1
 
-![配置界面](https://user-images.githubusercontent.com/6885956/167296759-1e8f1fee-3bb7-4292-b68f-16062bd45907.png)
+![参数配置](https://github.com/user-attachments/assets/25d3492c-8406-4926-aea6-a56b0bcdda9d)
 
 ## 3.4、TradingView警报配置
 - ==警报名称：请保持为空==
