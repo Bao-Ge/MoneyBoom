@@ -3,7 +3,7 @@
 
 [2、功能介绍](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#2%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)
 
-[3、下载与操作指南](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#3%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97)
+[3、下载与操作指南](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#3%E4%B8%8B%E8%BD%BD%E4%B8%8E%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97)
 
 [4、注意事项](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#4%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 
