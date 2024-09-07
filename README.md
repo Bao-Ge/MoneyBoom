@@ -102,7 +102,7 @@
 ![状态](https://github.com/user-attachments/assets/66bec7ae-5343-43f1-953e-8f069dbf398c)
 
 ## 2.11、版本信息
-当前当前工具版本和license版本；
+当前当前工具版本；
 
 ![版本](https://github.com/user-attachments/assets/bfb6b5b6-dc6c-4765-9423-f9a1c4e95a45)
 
@@ -156,14 +156,17 @@
   
 ![启用IMAP](https://github.com/user-attachments/assets/c01100f7-b4f9-4271-a295-8a6b08f0809c)
 
+- 管理google账户
+
+![管理google账户](https://github.com/user-attachments/assets/ce773098-e90f-4ed5-937a-e9c756c28ccc)
+
+- 两步验证
+
+![两步验证](https://github.com/user-attachments/assets/09ab57b0-4fc1-4d79-a48f-654cdfa8306d)
+
 - 获取应用专用密码
-  
-登录Gmail邮箱，点击设置，切换到账户；
 
-![邮箱配置](https://user-images.githubusercontent.com/6885956/167299071-3a40b94e-d992-4600-8b8f-009c0ea94e30.png)
-开启IMAP/SMTP,生成授权码，授权码即为邮箱的登录密码；
-
-![授权码](https://user-images.githubusercontent.com/6885956/167299112-b47e5401-66f0-43e0-9268-4f8cc19f7691.png)
+![应用专用密码](https://github.com/user-attachments/assets/8da7d800-4aa0-4ab6-8dd4-9c7f2cc69d7e)
 
 ### 4.1.2、币安API
 登录币安网页版，获取API Key 和 API Secret;
@@ -171,33 +174,11 @@
 登录欧易网页和APP，获取V5 API Key 和 API Secret;
 
 ### 4.1.4、策略模式
-- 单交易对单策略模式：如BTCUSDT只能运行一个策略，若运行多个，则各个策略的仓位会相互影响，优点是工具的webhook信号、工具的手动交易和在APP上的交易，能够相互开仓、平仓；
+- 单交易对单策略模式：如BTCUSDT只能运行一个策略，若运行多个，则各个策略的仓位会相互影响，优点是工具的Email信号、工具的手动交易和在APP上的交易，能够相互开仓、平仓；
 - 单交易对多策略模式：如BTCUSDT能运行多个策略，则各个策略的仓位相互独立；
 
-![策略模式](https://user-images.githubusercontent.com/6885956/167299424-0bc8d5f0-2ded-4c15-8e46-fe9352f2a1c3.png)
-
 ### 4.1.5、报警码
-不同账户之间可用报警码区分，如币安用M1,欧易用M2，当我们配置警报时，可用报警码区分，若币安用M1,欧易也用M1，则配置一个报警，币安和欧易同时进行交易；
-
-### 4.1.6、网络配置
-- ****海外服务器****
-HTTP地址会自动获取，勾选使用webhook；
-
-![海外服务器](https://user-images.githubusercontent.com/6885956/167299914-a4843eaf-97cd-4983-9090-4f01a44064e2.png)
-- **科学上网版**
-HTTP地址，请输入花生壳的内网穿透地址；
-
-代理地址，请输入科学上网工具地址，主要是需要找到代理端口；
-
-![科学上网版](https://user-images.githubusercontent.com/6885956/167299959-7faeb6b4-db64-4a55-91a6-431c27a537c9.png)
-- **无TradingView会员**
-支持邮件解析警报信号，适合白嫖党；
-
-HTTP地址，请输入花生壳的内网穿透地址；
-
-代理地址，请输入科学上网工具地址，主要是需要找到代理端口；
-
-![无TradingView会员](https://user-images.githubusercontent.com/6885956/167299978-4c370665-4fb5-4fa9-b70d-760d215f8a75.png)
+TradingView与金钱豹的报警码一致，金钱豹才会认为是有效信号；
 
 ## 4.2、警报配置说明
 警报消息如下所示，适用于TradingView的所有策略；
@@ -208,17 +189,22 @@ HTTP地址，请输入花生壳的内网穿透地址；
 
 其中M1为报警码，XXXXX为策略代号，100为改策略的仓位占比；
 - **常规警报**
-M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},100,{{strategy.order.id}}
+M1:TEST,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},100,{{strategy.order.id}}
 
 - **2TP警报**
-M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},50,{{strategy.order.id}},4,{{strategy.order.contracts}},{{strategy.prev_market_position_size}}
+M1:TEST,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},50,{{strategy.order.id}},3,{{strategy.order.contracts}},{{strategy.prev_market_position_size}}
 
-## 4.3、Webhook与Email警报说明
- 将**常规警报**或 **2TP警报**复制到警报的消息中；
+- **常规警报+网格**
+M1:TEST,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},50,{{strategy.order.id}},Grid:TEST2,1.005,0.975,5,15
+
+- **2TP警报+网格**
+M1:TEST,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},25,{{strategy.order.id}},3,{{strategy.order.contracts}},{{strategy.prev_market_position_size}},Grid:TEST2,1.005,0.975,5,15
+
+## 4.3、Email警报说明
+ 将**常规警报** 、 **2TP警报** 、 **常规警报+网格** 或 **2TP警报+网格** 复制到警报的消息中；
  
- ![警报配置](https://user-images.githubusercontent.com/6885956/167297672-0642387a-b5a3-45b1-bccb-064aa7a1b492.png)
 ## 4.4、仓位百分比
-MoneyBoom里面有2个仓位百分比，一个是交易对的仓位占比，一个是策略的仓位占比；
+金钱豹里面有2个仓位百分比，一个是交易对的仓位占比，一个是策略的仓位占比；
 
 交易对的仓位占比如下图所示；
 
@@ -226,11 +212,7 @@ MoneyBoom里面有2个仓位百分比，一个是交易对的仓位占比，一�
 
 策略的仓位占比见高亮的100；
 
-M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},100,{{strategy.order.id}}
-
-见信号记录的仓位；
-
-![信号记录](https://user-images.githubusercontent.com/6885956/167294525-33b7d1ff-0c9d-4426-9d37-4149096720c2.png)
+M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},50,{{strategy.order.id}}
 
 举例说明：
 
@@ -240,18 +222,8 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 
 ## 4.5、什么是2TP交易
 策略介绍如下
+且有2个止盈点；如下图所示，信号有2个，合约数为为仓位百分数；
 
-[https://cn.tradingview.com/script/VCBUQqGh-JaZYoN-bot-4X-Strategy/](https://cn.tradingview.com/script/VCBUQqGh-JaZYoN-bot-4X-Strategy/)
-
-JaZYoN_bot_4X - Strategy是一个非常优秀的策略，该策略能根据相关指标自动调整杠杆，并且有2个止盈点；如下图所示，信号有2个，合约数为杠杆；
-
-![2TP-1](https://user-images.githubusercontent.com/6885956/167301349-4be42138-ae36-4b51-845b-6f33b1b5a214.png)
-
-![2TP-2](https://user-images.githubusercontent.com/6885956/167301497-00feeaeb-2937-467f-9f52-1d5aa372e2e2.png)
-
-MoneyBoom已完美支持该策略，并且只需要一个警报，即可完成交易，相对于AutoView需要12个警报才能实现该策略，MoneyBoom实在是太方便了，警报信号如下所示；
-
-M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_position}},{{strategy.prev_market_position}},50,{{strategy.order.id}},4,{{strategy.order.contracts}},{{strategy.prev_market_position_size}}
 
 ## 4.6、清空记录
 首次使用时，若有开仓，请先平仓，然后点击按键“清空记录”；
