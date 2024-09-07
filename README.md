@@ -14,7 +14,7 @@
 支持TradingView的Email警报（免费版TradingView也能进行量化交易），支持币安U本位合约和欧易的U本位合约。
 金钱豹工作方式如下图所示。
 
-![0](https://github.com/user-attachments/assets/7780c3fc-04b0-4d60-a22f-bd7da4fab76b)
+![](https://user-images.githubusercontent.com/issues/5/0.png)
 
 ## 1.1、核心功能
 - 对接Tradingview发出的email警报
