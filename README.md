@@ -10,18 +10,18 @@
 [5、费用说明](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 # 1、简介
-MoneyBoom又名金钱豹，是一款能对接TradingView的警报信号，然后在指定交易所进行交易的工具；已支持TradingView的Webhook,Email两种警报，支持的交易所有币安U本位合约和欧易的U本位合约。
+金钱豹MoneyBoom是一款能对接TradingView的警报信号，然后在指定交易所进行交易的工具；已支持TradingView的Email警报（免费版TradingView也能进行量化交易），支持币安U本位合约和欧易的U本位合约。
 
-![MoneyBoom-4](https://user-images.githubusercontent.com/6885956/166481744-e0ffedc0-b245-44d2-bf2e-ac561bc18cb2.png)
+
 ## 1.1、核心功能
-- 对接Tradingview发出的webhook警报或email警报
-- 对接币安合约或欧易合约，能够做多或做空
+- 对接Tradingview发出的email警报
+- 对接币安合约或欧易合约
 - 支持设置杠杆和仓位百分比
 - 支持多币种交易
 - 支持单币种的多策略交易
 - 支持2TP交易
+- 支持网格交易
 - 简单便捷的警报消息配置 
-- 一个报警就能执行多个账户
 
 ## 1.2、拓展功能
 - 显示当前持仓和交易清单
@@ -29,21 +29,20 @@ MoneyBoom又名金钱豹，是一款能对接TradingView的警报信号，然后
 - 统计月度收益并曲线显示
 - 显示历史余额走势
 - 支持手动开仓、平仓
-- 账户的安全保护，工具被复制到其他电脑后，原有配置会失效
+- 账户安全保护，工具复制到另一台电脑，账户失效
 
 # 2、功能介绍
 
-![MoneyBoom-1](https://user-images.githubusercontent.com/6885956/167294516-0321c89c-604d-4ba3-b84f-b78edff3ed8e.png)
+![1](https://github.com/user-attachments/assets/ebae624a-c512-42f9-a62d-89df69d2a6b5)
 
 ## 2.1、交易对
 选择指定交易对，可进行杠杆、仓位、仓位类型和止损配置；
+![6](https://github.com/user-attachments/assets/3f086700-5667-4865-90e9-55e2a9c09cb3)
 
-![交易对](https://user-images.githubusercontent.com/6885956/167293908-b3642589-d462-4489-862b-e172d2d087e4.png)
-
-1. 目前最大支持10x，咱们还是得注意风险，别玩儿太大；
+1. 目前最大支持50x；
 2. 仓位为各个交易对占保证金的百分比，如果同时跑BTCUSDT和ETHUSDT，可各设置50%，仓位占比之和为100%；
 3. 类型：全仓杠杆和逐仓杠杆；
-4. 止损：当亏损达到该值后，将进行平仓止损；
+4. 止损：当亏损达到该值后，将自动进行平仓止损；
 
 ## 2.2、账户
 对于币安账号只显示BNB、USDT和BUSD，对于欧易账号只显示USDT；
