@@ -231,5 +231,5 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 # 5、费用说明
 | 版本 | FREE | PRO |
 | --- | --- | --- |
-|交易保证金限额  | 100 USDT |
-| 每月 | 免费 |25 USDT  |
+|交易保证金限额  | 100 USDT | 无限制  |
+| 每月 | 免费 |  25 USDT  |
