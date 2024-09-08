@@ -233,3 +233,12 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 | --- | --- | --- |
 |交易保证金限额  | 100 USDT | 无限制  |
 | 每月 |    免费   |  25 USDT  |
+## 5.1、币安APP支付
+采用币安ID转账，无手续费；
+币安ID：156555824，转账时，需要添加附言，附言格式为：机器码  Gmail邮箱名称
+如机器码为：MB1234，你的Gmail邮箱为：abcd@gmail.com
+则附言为：MB1234 abcd
+支付成功后，会收到一个激活码，在金钱豹里激活即可
+注：机器码与Gmail邮箱名称之间需要有空格，支付金额需要时25的整数倍
+步骤如下：
+
