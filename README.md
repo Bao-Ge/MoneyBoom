@@ -247,7 +247,7 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 
 支付成功后，会收到一个激活码，在金钱豹里激活即可
 
-注：机器码与Gmail邮箱名称之间需要有空格，支付金额需要时25的整数倍
+注：机器码与Gmail邮箱名称之间需要有空格，支付金额需要是25的整数倍
 
 步骤如下：
 
