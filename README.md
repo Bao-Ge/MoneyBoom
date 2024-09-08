@@ -166,6 +166,8 @@
 
 - 获取应用专用密码
 
+![应用专用密码2](https://github.com/user-attachments/assets/27a463b7-df33-4d55-969d-3831367685c0)
+
 ![应用专用密码](https://github.com/user-attachments/assets/8da7d800-4aa0-4ab6-8dd4-9c7f2cc69d7e)
 
 ### 4.1.2、币安API
@@ -242,3 +244,9 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 注：机器码与Gmail邮箱名称之间需要有空格，支付金额需要时25的整数倍
 步骤如下：
 
+![支付-1](https://github.com/user-attachments/assets/39cad571-adf7-4d41-8445-d4ba07bd9fc9)
+![支付-2](https://github.com/user-attachments/assets/a0854dc8-f5b6-4650-ae36-f50cdbfe40cf)
+![支付-3](https://github.com/user-attachments/assets/96cababd-d6c8-4580-8341-60a8edf8d781)
+![支付-4](https://github.com/user-attachments/assets/258dfd13-2bdc-4e90-b46a-6344e9416b74)
+![支付-5](https://github.com/user-attachments/assets/4fa54762-718a-46f9-99f4-8b3c4a62a230)
+![支付-6](https://github.com/user-attachments/assets/f6056c0a-ca3c-4f6d-8532-20659da6105a)
