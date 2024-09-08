@@ -166,6 +166,8 @@
 
 - 获取应用专用密码
 
+![应用专用密码3](https://github.com/user-attachments/assets/777fbb4b-7064-4bf5-9878-5271627b96ea)
+
 ![应用专用密码2](https://github.com/user-attachments/assets/27a463b7-df33-4d55-969d-3831367685c0)
 
 ![应用专用密码](https://github.com/user-attachments/assets/8da7d800-4aa0-4ab6-8dd4-9c7f2cc69d7e)
