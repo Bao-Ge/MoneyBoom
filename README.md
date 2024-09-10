@@ -9,6 +9,11 @@
 
 [5、费用说明](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
 
+[6、联系方式](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
+
+如果当前文档的图片显示不了，请下载PDF本地查看，下载链接如下：
+
+
 # 1、简介
 金钱豹MoneyBoom是一款能对接TradingView的警报信号，然后在指定交易所进行下单的自动交易工具。
 支持TradingView的Email警报（免费版TradingView也能进行量化交易），支持币安U本位合约和欧易的U本位合约。
@@ -259,3 +264,10 @@ M1:XXXXX,,{{ticker}},{{close}},{{strategy.order.action}},{{strategy.market_posit
 ![支付-4](https://github.com/user-attachments/assets/258dfd13-2bdc-4e90-b46a-6344e9416b74)
 ![支付-5](https://github.com/user-attachments/assets/4fa54762-718a-46f9-99f4-8b3c4a62a230)
 ![支付-6](https://github.com/user-attachments/assets/f6056c0a-ca3c-4f6d-8532-20659da6105a)
+
+或者采用币安APP扫码支付，请添加附言；
+![二维码支付](https://github.com/user-attachments/assets/7ef5786c-4812-4d35-aaa6-fb9af3e1103c)
+
+# 6、联系方式
+如果遇到使用方面的问题，请电报联系。
+![电报](https://github.com/user-attachments/assets/02fee33d-acd7-4be7-b3f0-d243de6052b5)
