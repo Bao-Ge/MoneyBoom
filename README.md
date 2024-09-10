@@ -9,7 +9,7 @@
 
 [5、费用说明](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
 
-[6、联系方式](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#5%E8%B4%B9%E7%94%A8%E8%AF%B4%E6%98%8E)
+[6、联系方式](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#6%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
 
 如果当前文档的图片显示不了，请下载PDF本地查看，下载链接如下：
 
