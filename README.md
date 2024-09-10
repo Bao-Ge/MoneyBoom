@@ -12,6 +12,7 @@
 [6、联系方式](https://github.com/Bao-Ge/MoneyBoom/blob/main/README.md#6%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
 
 如果当前文档的图片显示不了，请下载PDF本地查看，下载链接如下：
+
 [金钱豹使用手册下载](https://github.com/Bao-Ge/MoneyBoom/releases/download/MoneyBoom/MoneyBoom_Manual.pdf)
 
 # 1、简介
